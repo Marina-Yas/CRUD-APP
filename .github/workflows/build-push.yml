@@ -2,10 +2,12 @@ name: Publish Docker Image
 on:
   push:
      branches:
-     - main
+      - main
+
 env:  
    REGISTRY: ghcr.io
    IMAGE_NAME: ${{ github.repository }}
+
 jobs:
    build:
      runs-on: alpine
