@@ -11,7 +11,7 @@ env:
 
 jobs:
    build:
-     runs-on: alpine
+     runs-on: unbuntu-latest
      steps:
       - name: Check out
         uses: actions/checkout@v2
