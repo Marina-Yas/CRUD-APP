@@ -3,6 +3,7 @@ on:
   push:
      branches:
       - main
+# Ideally this workflow will be changed to be executed only on tags/releases.
 
 env:  
    REGISTRY: ghcr.io
