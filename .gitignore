@@ -1,0 +1,11 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.terraform.lock.hcl
+
+
+# Directories
+.terraform/
+
+# Ignore Mac .DS_Store files
+.DS_Store
