@@ -12,8 +12,7 @@ terraform {
 provider "aws" {
   region  = "us-west-2"
   // if null, will read ENV AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
-  # access_key = "AKIA4XX5LBDHI4H44OPY"
-  # secret_key = "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"
+  
 }
 
 resource "aws_instance" "app_server" {
